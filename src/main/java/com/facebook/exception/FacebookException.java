@@ -1,5 +1,5 @@
 package com.facebook.exception;
-// aici am lucrat
+// aici am lucrat fydghcb
 public class FacebookException extends Exception {
 
     public FacebookException() {
