@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="45193fdb-4c26-40f2-85b0-9f31e8c93329" name="Default Changelist" comment="">
+    <list default="true" id="45193fdb-4c26-40f2-85b0-9f31e8c93329" name="Default Changelist" comment="4th commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/facebook/exception/FbInexistentEmail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/dao/UserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/dao/UserDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/ui/MainUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/ui/MainUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/facebook/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/facebook/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/facebook/dao/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/facebook/dao/UserDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/facebook/ui/EditSettingsUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/facebook/ui/EditSettingsUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/facebook/ui/MainUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/facebook/ui/MainUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/facebook/users.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/facebook/users.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,6 +48,9 @@
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.facebook.exception" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\JAVA\proiecte\facebookApp\src\main\java" />
       <recent name="C:\JAVA\proiecte\facebookApp\src\main\java\com\facebook" />
@@ -109,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581596779845</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="4th commit">
+      <created>1581597105872</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1581597105872</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -128,7 +147,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="second commit" />
     <MESSAGE value="3th commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="3th commit" />
+    <MESSAGE value="4th commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="4th commit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="548" y="115" key="CommitChangelistDialog2" />

@@ -1,5 +1,7 @@
 package com.facebook.ui;
 
+import com.facebook.exception.FbTechnicalException;
+
 import java.io.IOException;
 import java.util.Scanner;
 
@@ -10,7 +12,7 @@ public class MainUI {
     private EditSettingsUI editSettingsUI = new EditSettingsUI();
 //    private SignUpUI signUpUI
 
-    public void start() throws IOException {
+    public void start() throws IOException, FbTechnicalException {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Choose option (1 - login, 2 - signup, 3 - edit settings: ");
         String opt = scanner.nextLine();

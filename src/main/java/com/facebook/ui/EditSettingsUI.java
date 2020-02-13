@@ -1,26 +1,38 @@
 package com.facebook.ui;
+import com.facebook.dao.UserDAO;
 import com.facebook.exception.*;
+import com.facebook.model.User;
 import com.facebook.service.UserService;
 import com.facebook.ui.validator.UserValidator;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class EditSettingsUI {
 
     private UserService userService = new UserService();
     private UserValidator userValidator=new UserValidator();
+    private UserDAO userDAO=new UserDAO();
 
     public void displayEditSettings() throws IOException {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Password: ");
-        String password = scanner.nextLine();
-        System.out.println("Name: ");
-        String name = scanner.nextLine();
+        System.out.println("Email: ");
+        String email = scanner.nextLine();
         try {
-            userValidator.validateUserCredentials(password,name);
-            userValidator.validateUserName(name);
-            userService.editSettings(password, name);
+            userDAO.checkEmail(email);
+            System.out.println("New Password: ");
+            String password = scanner.nextLine();
+            System.out.println("New name: ");
+            String name = scanner.nextLine();
+            if(password.length()>0)
+                userValidator.validateUserCredentials(email,password);
+            if(name.length()>0)
+                userValidator.validateUserName(name);
+            userDAO.editSettings(email,password,name);
             System.out.println("User's settings successfully modified");
+        } catch (FbInexistentEmail e) {
+            System.out.println("Inexistent email");
         } catch (FbShortPasswordException e) {
             System.out.println("Password is too short");            //parola
         } catch (FbStrongPasswordException e){
