@@ -38,7 +38,7 @@ public class UserDAO {
         System.out.println("New user:" + newUser.getEmail() + ";" + newUser.getPassword() + ";" + newUser.getName());
         Writer outputStream;
 
-        outputStream = new BufferedWriter(new FileWriter("c:\\JAVA\\proiecte\\facebookApp\\src\\main\\java\\com\\facebook\\users.txt", true));
+        outputStream = new BufferedWriter(new FileWriter(USERS_FILE, true));
         outputStream.write(newUser.getEmail() + ";" + newUser.getPassword() + ";" + newUser.getName());
         ((BufferedWriter) outputStream).newLine();
         outputStream.close();
@@ -49,7 +49,7 @@ public class UserDAO {
         System.out.println("Update user Settings:" + newUser.getEmail() + ";" + newUser.getPassword() + ";" + newUser.getName());
         Writer outputStream;
 
-        outputStream = new BufferedWriter(new FileWriter("c:\\JAVA\\proiecte\\facebookApp\\src\\main\\java\\com\\facebook\\users.txt", true));
+        outputStream = new BufferedWriter(new FileWriter(USERS_FILE, true));
         outputStream.write(newUser.getEmail() + ";" + newUser.getPassword() + ";" + newUser.getName());
         ((BufferedWriter) outputStream).newLine();
         outputStream.close();
@@ -60,7 +60,7 @@ public class UserDAO {
         System.out.println("Update user profile :" + newUser.getPhoneNumber() + ";" + newUser.getDateOfBirth() + ";" + newUser.getMaritalStatus() + ";" + newUser.getGender() + ";" + newUser.getCity() + ";" + newUser.getJob());
         Writer outputStream;
 
-        outputStream = new BufferedWriter(new FileWriter("c:\\JAVA\\proiecte\\facebookApp\\src\\main\\java\\com\\facebook\\usersOutputProfile.txt", true));
+        outputStream = new BufferedWriter(new FileWriter(USERS_FILE, true));
         outputStream.write(newUser.getPhoneNumber() + ";" + newUser.getDateOfBirth() + ";" + newUser.getMaritalStatus() + ";" + newUser.getGender() + ";" + newUser.getCity() + ";" + newUser.getJob());
         ((BufferedWriter) outputStream).newLine();
         outputStream.close();
@@ -90,7 +90,7 @@ public class UserDAO {
                 if (name.length() > 0) //then modify name
                     user.setName(name);
             }
-        Writer outputStream = new BufferedWriter(new FileWriter("c:\\JAVA\\proiecte\\facebookApp\\src\\main\\java\\com\\facebook\\users.txt"));
+        Writer outputStream = new BufferedWriter(new FileWriter(USERS_FILE));
         for (User user : userList)
         //System.out.println(user.getEmail()+" "+user.getPassword()+" "+user.getName());  // test modify user
 

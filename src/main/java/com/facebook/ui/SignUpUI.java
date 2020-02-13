@@ -25,10 +25,16 @@ public class SignUpUI {
                 System.out.println("User successfully added");
             } catch (FbShortPasswordException e) {
                 System.out.println("Password is too short");
+                SignUpUI signUpUI = new SignUpUI();
+                signUpUI.displaySignUp();
             } catch (FbStrongPasswordException e){
                 System.out.println("Password is not strong");
+                SignUpUI signUpUI = new SignUpUI();
+                signUpUI.displaySignUp();
             } catch (FbEmailInvalid e) {
                 System.out.println("Email invalid");
+                SignUpUI signUpUI = new SignUpUI();
+                signUpUI.displaySignUp();
             } catch (FbTechnicalException e) {
                 e.printStackTrace();
                 System.out.println("A system error appeared. Please contact your administrator");

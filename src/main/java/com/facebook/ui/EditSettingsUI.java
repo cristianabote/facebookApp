@@ -1,12 +1,9 @@
 package com.facebook.ui;
 import com.facebook.dao.UserDAO;
 import com.facebook.exception.*;
-import com.facebook.model.User;
 import com.facebook.service.UserService;
 import com.facebook.ui.validator.UserValidator;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
 
 public class EditSettingsUI {
