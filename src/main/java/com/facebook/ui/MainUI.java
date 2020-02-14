@@ -1,40 +1,31 @@
 package com.facebook.ui;
 
-import sun.rmi.runtime.Log;
+import com.facebook.exception.FbTechnicalException;
 
+import java.io.IOException;
 import java.util.Scanner;
 
 public class MainUI {
 
-//    private LoginUI loginUI = new LoginUI();
-//    private RegisterUI registerUI = new RegisterUI();
+    private LoginUI loginUI = new LoginUI();
+    private SignUpUI signUpUI=new SignUpUI();
+    private EditSettingsUI editSettingsUI = new EditSettingsUI();
+//    private SignUpUI signUpUI
 
-    public void start() {
-
-        Scanner loginScanner = new Scanner(System.in);
-
-        System.out.println("1. Login");
-        System.out.println("2. Register");
-        System.out.println("Enter your option: ");
-
-        int option = Integer.parseInt(loginScanner.next());
-
-
-        if (option == 1) {
-            System.out.println("Please Login ");
-            LoginUI loginUI = new LoginUI();
-            loginUI.displayLogin();
+    public void start() throws IOException, FbTechnicalException {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Choose option (1 - login, 2 - signup, 3 - edit settings: ");
+        String opt = scanner.nextLine();
+        switch (opt) {
+            case "1":
+                loginUI.displayLogin();break;
+            case "2":
+                signUpUI.displaySignUp();break;
+            case "3":
+                editSettingsUI.displayEditSettings();break;
+            default:
+                System.out.println("Invalid option");
         }
-        if (option == 2) {
-            {
-                System.out.println("Please Register ");
-                RegisterUI registerUI = new RegisterUI();
-                registerUI.displayRegister();
-            }
-
-
-
-        }
-
     }
+
 }
