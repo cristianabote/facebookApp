@@ -1,6 +1,5 @@
 # Default ignored files
 /workspace.xml
-<<<<<<< HEAD
-=======
+workspace.xml~cristiana
 workspace.xml
->>>>>>> cristiana
+$PRODUCT_WORKSPACE_FILE$
