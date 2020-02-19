@@ -1,12 +1,11 @@
 package com.facebook.ui;
 
-import com.facebook.dao.UserDAO;
 import com.facebook.exception.FacebookException;
 import com.facebook.exception.FbTechnicalException;
 import com.facebook.exception.FbWrongCredentialsException;
-import com.facebook.model.User;
 import com.facebook.service.UserService;
 
+import java.io.IOException;
 import java.util.Scanner;
 
 import static com.facebook.ui.MyFacebook.showOption;
@@ -15,12 +14,12 @@ public class LoginUI {
 
     private UserService userService = new UserService();
 
-    public void displayLogin() {
+    public void displayLogin() throws IOException, FbTechnicalException {
         Scanner loginScanner = new Scanner(System.in);
         System.out.println("Email: ");
-        String email = loginScanner.nextLine();
+        String email = loginScanner.next();
         System.out.println("Password: ");
-        String password = loginScanner.nextLine();
+        String password = loginScanner.next();
         try {
             userService.login(email, password);
             System.out.println("Welcome "+ email);
