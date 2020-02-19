@@ -1,23 +1,23 @@
 package com.facebook.model;
 
 public class User {
-    private String name;
+    private String role;
     private String password;
     private String email;
 
-    public User(String email, String password, String name) {
-        this.name = name;
+    public User(String email, String password, String role) {
+        this.role = role;
         this.password = password;
         this.email = email;
 
     }
 
     public String getName() {
-        return name;
+        return role;
     }
 
     public void setName(String name) {
-        this.name = name;
+        this.role = name;
     }
 
     public String getPassword() {

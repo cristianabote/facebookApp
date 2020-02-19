@@ -1,20 +1,30 @@
 package com.facebook.model;
 
 public class Like {
-    private String postID;
+    private String likeId;
+    private String postId;
     private String userName;
 
-    public Like(String postID, String userName) {
-        this.postID = postID;
+    public Like(String likeId, String postId, String userName) {
+        this.likeId = likeId;
+        this.postId = postId;
         this.userName = userName;
     }
 
-    public String getPostID() {
-        return postID;
+    public String getLikeId() {
+        return likeId;
     }
 
-    public void setPostID(String postID) {
-        this.postID = postID;
+    public void setLikeId(String likeId) {
+        this.likeId = likeId;
+    }
+
+    public String getPostId() {
+        return postId;
+    }
+
+    public void setPostId(String postId) {
+        this.postId = postId;
     }
 
     public String getUserName() {

@@ -37,7 +37,7 @@ public class SignUpUI {
 
             try {
                 userValidator.validateUserCredentials(email,password);
-                userService.signUp(email, password, name, phoneNumber, dateOfBirth, maritalStatus, gender, city, job);
+                userService.signUp(email, password, role,  name, phoneNumber, dateOfBirth, maritalStatus, gender, city, job);
                 System.out.println("User successfully added");
                 LoginUI loginUI = new LoginUI();
                 loginUI.displayLogin();

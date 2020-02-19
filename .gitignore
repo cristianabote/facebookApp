@@ -1,9 +1,11 @@
 # Default ignored files
-/workspace.xml
+/.idea/workspace.xml
 workspace.xml~cristiana
 workspace.xml
 $PRODUCT_WORKSPACE_FILE$
 workspace.xml
 users.txt
+.class
+
 
 
