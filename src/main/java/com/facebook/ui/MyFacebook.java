@@ -1,10 +1,13 @@
 package com.facebook.ui;
 
+import com.facebook.exception.FbTechnicalException;
+
+import java.io.IOException;
 import java.util.Scanner;
 
 public class MyFacebook {
 
-    public static void showOption() {
+    public static void showOption() throws IOException, FbTechnicalException {
         Scanner firstScreenAfterLoginScanner = new Scanner(System.in);
         System.out.println("1. See Profile");
         System.out.println("2. Add Friend");
@@ -21,9 +24,12 @@ public class MyFacebook {
         }
         if (option == 2) {
             {
-                System.out.println("Please Register ");
-                RegisterUI registerUI = new RegisterUI();
-                registerUI.displayRegister();
+                System.out.println("Please Sign Up ");
+                SignUpUI signUpUI = new SignUpUI();
+                signUpUI.displaySignUp();
+            }
+            if (option == 3){
+                System.out.println("Please Sign Up ");
             }
 
         }
