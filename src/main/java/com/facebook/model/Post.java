@@ -6,12 +6,11 @@ import java.util.List;
 
 
 public class Post {
-    public Post(String postID, String userName, String title, String description, String photoID, ArrayList likes, ArrayList comments) {
+    public Post(String postID, String userName, String title, String description, List<Like> likes, List<Comment> comments) {
         this.postID = postID;
         this.userName = userName;
         this.title = title;
         this.description = description;
-        this.photoID = photoID;
         this.likes = likes;
         this.comments = comments;
     }
@@ -20,7 +19,6 @@ public class Post {
     private String userName;
     private String title;
     private String description;
-    private String photoID;
     private List<Like> likes;
     private List<Comment> comments;
 
@@ -55,14 +53,6 @@ public class Post {
 
     public void setDescription(String description) {
         this.description = description;
-    }
-
-    public String getPhotoID() {
-        return photoID;
-    }
-
-    public void setPhotoID(String photoID) {
-        this.photoID = photoID;
     }
 
     public List<Like> getLikes() {

@@ -13,17 +13,20 @@ import java.util.List;
 
 public class UserDao {
 
-    private static final String USERS_FILE = "C:/Users/Soundrob/IdeaProjects/FacebookApp/facebookApp/src/main/java/com/facebook/users.txt";
-    private static final String USER_INFO = "C:/Users/Soundrob/IdeaProjects/FacebookApp/facebookApp/src/main/java/com/facebook/usersOutputProfile.txt";
+    private static final String USERS_FILE = "C:/Users/User/IdeaProjects/facebookApp/src/main/java/com/facebook/users.txt";
+    private static final String USER_INFO = "C:/Users/User/IdeaProjects/facebookApp/src/main/java/com/facebook/usersOutputProfile.txt";
 
 
     public List<User> readAllUsers() throws FbTechnicalException {
         List<User> userList = new ArrayList<>();
-        try (BufferedReader userReader = new BufferedReader(new FileReader(USERS_FILE))) {
-            String userLine = userReader.readLine();
-            String[] userValues = userLine.split(";");
+        try (
+            BufferedReader userReader = new BufferedReader(new FileReader(USERS_FILE))){
+            while ((userReader.readLine()) != null) {
+                String userLine = userReader.readLine();
+                String[] userValues = userLine.split(";");
 
-            userList.add(new User(userValues[0], userValues[1], userValues[2]));
+                userList.add(new User(userValues[0], userValues[1], userValues[2]));
+            }
         } catch (IOException e) {
             throw new FbFileException("Error reading users", e);
         }
@@ -40,7 +43,7 @@ public class UserDao {
 
         Writer outputStream2;
         outputStream2 = new BufferedWriter(new FileWriter(USER_INFO,true));
-        outputStream2.write(newUserProfile.getEmail() + ";" +newUserProfile.getPassword() + ";" + newUserProfile.getName() + ";" + newUserProfile.getPhoneNumber()+ ";" + newUserProfile.getDateOfBirth()+ ";" + newUserProfile.getGender()
+        outputStream2.write(newUserProfile.getEmail()  + ";" + newUserProfile.getName() + ";" + newUserProfile.getPhoneNumber()+ ";" + newUserProfile.getDateOfBirth()+ ";" + newUserProfile.getGender()
                 + ";" + newUserProfile.getCity()+ ";" + newUserProfile.getMaritalStatus()+ ";" + newUserProfile.getJob());
         ((BufferedWriter) outputStream2).newLine();
         outputStream2.close();
