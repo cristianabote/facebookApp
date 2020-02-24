@@ -1,66 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a839a109-b5ba-4f2d-b159-28fc0d49600a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="45193fdb-4c26-40f2-85b0-9f31e8c93329" name="Default Changelist" comment="second commit">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exception-handling/META-INF/exception-handling.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exception-handling/META-INF/exception-handling.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/Application.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/dao/UserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/dao/UserDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/exception/FacebookException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/exception/FacebookException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/exception/FbBusinessException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/exception/FbBusinessException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/exception/FbEmailInvalid.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/exception/FbEmailInvalid.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/exception/FbFileException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/exception/FbFileException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/exception/FbInexistentEmail.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/exception/FbInexistentEmail.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/exception/FbInvalidNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/exception/FbInvalidNumber.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/exception/FbNameNullException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/exception/FbNameNullException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/exception/FbShortPasswordException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/exception/FbShortPasswordException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/exception/FbStrongPasswordException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/exception/FbStrongPasswordException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/exception/FbTechnicalException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/exception/FbTechnicalException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/exception/FbWrongCredentialsException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/exception/FbWrongCredentialsException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/model/Comment.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/model/Comment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/model/FacebookAccount.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/model/Friend.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/model/Like.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/model/Like.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/model/Message.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/model/Messenger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/model/Post.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/model/Post.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/model/ProfileInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/model/ProfileInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/model/SuggestedFriend.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/model/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/ui/EditSettingsUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/ui/EditSettingsUI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/ui/LoginUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/ui/LoginUI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/ui/MainUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/ui/MainUI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/ui/MyFacebook.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/ui/MyFacebook.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/ui/ProfileUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/ui/ProfileUI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/ui/RegisterUI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/ui/SignUpUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/ui/SignUpUI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/ui/validator/UserValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/ui/validator/UserValidator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exception-handling/users.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exception-handling/users.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/facebook/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/facebook/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/facebook/model/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/facebook/model/Comment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/facebook/model/FacebookAccount.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/facebook/model/Friend.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/facebook/model/Like.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/facebook/model/Like.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/facebook/model/Message.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/facebook/model/Messenger.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/facebook/model/Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/facebook/model/Post.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/facebook/model/ProfileInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/facebook/model/ProfileInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/facebook/model/SuggestedFriend.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/facebook/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/facebook/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/facebook/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/facebook/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/facebook/ui/SignUpUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/facebook/ui/SignUpUI.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="facebookApp" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
