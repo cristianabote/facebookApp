@@ -10,6 +10,8 @@ public class ProfileInfo {
     private String city;
     private String job;
 
+
+
     public ProfileInfo(String phoneNumber, Date dateOfBirth, String maritalStatus, String gender, String city, String job) {
         this.phoneNumber = phoneNumber;
         this.dateOfBirth = dateOfBirth;
@@ -17,6 +19,14 @@ public class ProfileInfo {
         this.gender = gender;
         this.city = city;
         this.job = job;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
     }
 
     public String getPhoneNumber() {
