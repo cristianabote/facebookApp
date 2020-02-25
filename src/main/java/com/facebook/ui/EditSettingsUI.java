@@ -1,19 +1,16 @@
 package com.facebook.ui;
-import com.facebook.dao.UserDAO;
+import com.facebook.dao.UserDao;
 import com.facebook.exception.*;
-import com.facebook.model.User;
 import com.facebook.service.UserService;
 import com.facebook.ui.validator.UserValidator;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
 
 public class EditSettingsUI {
 
     private UserService userService = new UserService();
     private UserValidator userValidator=new UserValidator();
-    private UserDAO userDAO=new UserDAO();
+    private UserDao userDAO=new UserDao();
 
     public void displayEditSettings() throws IOException {
         Scanner scanner = new Scanner(System.in);
@@ -27,10 +24,10 @@ public class EditSettingsUI {
             String name = scanner.nextLine();
             if(password.length()>0)
                 userValidator.validateUserCredentials(email,password);
-            if(name.length()>0)
-                userValidator.validateUserName(name);
-            userDAO.editSettings(email,password,name);
-            System.out.println("User's settings successfully modified");
+//            if(name.length()>0)
+//                userValidator.validateUserName(name);
+//            userDAO.editSettings(email,password,name);
+//            System.out.println("User's settings successfully modified");
         } catch (FbInexistentEmail e) {
             System.out.println("Inexistent email");
         } catch (FbShortPasswordException e) {

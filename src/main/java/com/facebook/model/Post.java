@@ -1,61 +1,75 @@
 package com.facebook.model;
 
+import java.util.ArrayList;
+import java.util.List;
+
+
+
 public class Post {
-    private String image;
-    private String video;
-    private String liveVideo;
-    private String text;
-    private String checkIn;
-
-    public Post(String text) {
-        this.text = text;
+    public Post(String postID, String userName, String title, String description, List<Like> likes, List<Comment> comments) {
+        this.postID = postID;
+        this.userName = userName;
+        this.title = title;
+        this.description = description;
+        this.likes = likes;
+        this.comments = comments;
     }
 
-    public Post(String image, String video, String liveVideo, String text, String checkIn) {
-        this.image = image;
-        this.video = video;
-        this.liveVideo = liveVideo;
-        this.text = text;
-        this.checkIn = checkIn;
+    private String postID;
+    private String userName;
+    private String title;
+    private String description;
+    private List<Like> likes;
+    private List<Comment> comments;
+
+
+    public String getPostID() {
+        return postID;
     }
 
-    public String getImage() {
-        return image;
+    public void setPostID(String postID) {
+        this.postID = postID;
     }
 
-    public void setImage(String image) {
-        this.image = image;
+    public String getUserName() {
+        return userName;
     }
 
-    public String getVideo() {
-        return video;
+    public void setUserName(String userName) {
+        this.userName = userName;
     }
 
-    public void setVideo(String video) {
-        this.video = video;
+    public String getTitle() {
+        return title;
     }
 
-    public String getLiveVideo() {
-        return liveVideo;
+    public void setTitle(String title) {
+        this.title = title;
     }
 
-    public void setLiveVideo(String liveVideo) {
-        this.liveVideo = liveVideo;
+    public String getDescription() {
+        return description;
     }
 
-    public String getText() {
-        return text;
+    public void setDescription(String description) {
+        this.description = description;
     }
 
-    public void setText(String text) {
-        this.text = text;
+    public List<Like> getLikes() {
+        return likes;
     }
 
-    public String getCheckIn() {
-        return checkIn;
+    public void setLikes(List<Like> likes) {
+        this.likes = likes;
     }
 
-    public void setCheckIn(String checkIn) {
-        this.checkIn = checkIn;
+    public List<Comment> getComments() {
+        return comments;
     }
+
+    public void setComments(List<Comment> comments) {
+        this.comments = comments;
+    }
+
+
 }

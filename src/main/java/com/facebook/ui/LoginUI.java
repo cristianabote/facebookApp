@@ -5,23 +5,30 @@ import com.facebook.exception.FbTechnicalException;
 import com.facebook.exception.FbWrongCredentialsException;
 import com.facebook.service.UserService;
 
+import java.io.IOException;
 import java.util.Scanner;
+
+import static com.facebook.ui.MyFacebook.showOption;
 
 public class LoginUI {
 
     private UserService userService = new UserService();
 
-    public void displayLogin() {
-        Scanner scanner = new Scanner(System.in);
+    public void displayLogin() throws IOException, FbTechnicalException {
+        Scanner loginScanner = new Scanner(System.in);
         System.out.println("Email: ");
-        String email = scanner.nextLine();
+        String email = loginScanner.next();
         System.out.println("Password: ");
-        String password = scanner.nextLine();
+        String password = loginScanner.next();
         try {
             userService.login(email, password);
-            System.out.println("User successfully login");
+            System.out.println("Welcome "+ email);
+            showOption();
+
         } catch (FbWrongCredentialsException e) {
             System.out.println("Wrong Credentials");
+            MainUI mainUI = new MainUI();
+            mainUI.start();
         } catch (FbTechnicalException e) {
             e.printStackTrace();
             System.out.println("A system error appeared. Please contact your administrator");
@@ -29,6 +36,7 @@ public class LoginUI {
             e.printStackTrace();
 
         }
+
 
 
     }

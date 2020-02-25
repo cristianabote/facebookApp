@@ -14,7 +14,10 @@ public class MainUI {
 
     public void start() throws IOException, FbTechnicalException {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Choose option (1 - login, 2 - signup, 3 - edit settings: ");
+        System.out.println("1. Login:");
+        System.out.println("2. Signup:");
+        System.out.println("3. Edit settings: ");
+        System.out.println("Enter your option");
         String opt = scanner.nextLine();
         switch (opt) {
             case "1":
