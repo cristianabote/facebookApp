@@ -1,0 +1,7 @@
+1;p1;Abel;
+2;p1;Cris;
+3;p1;Abel;
+4;p1;Cris;
+5;p1;Abel;
+6;p1;Cris
+6;p1;Cris

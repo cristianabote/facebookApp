@@ -9,7 +9,13 @@ public class CommentService {
 
     private CommentDao commentDao = new CommentDao();
 
-    public int viewAllComments(String commentId, String postId, String userName, String commentContent) throws FbTechnicalException {
+    public static void main(String[] args) throws IOException, FbTechnicalException {
+        CommentService testComment=new CommentService();
+        testComment.writeComment("1","p1", "Cris", "nice");
+        System.out.println(testComment.viewAllComments("p1","Cris"));
+    }
+
+    public int viewAllComments(String postId, String userName) throws FbTechnicalException {
         int counter=0;
         for (Comment comment : commentDao.readAllComments()) {
             if (postId.equals(comment.getPostId())) {
