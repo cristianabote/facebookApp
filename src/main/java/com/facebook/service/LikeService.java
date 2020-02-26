@@ -39,7 +39,7 @@ public class LikeService {
     public void addLike(String postId, String userName) throws IOException, FbTechnicalException {
         int maxIdLike=0;
         for (Like like : likeDao.readAllLike()){
-          maxIdLike++;
+          maxIdLike=like.getLikeId();
         }
         Like like = new Like(maxIdLike+1,postId, userName);
         likeDao.writeLike(like);
