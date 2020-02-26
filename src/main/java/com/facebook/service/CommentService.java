@@ -9,11 +9,11 @@ public class CommentService {
 
     private CommentDao commentDao = new CommentDao();
 
-    public static void main(String[] args) throws IOException, FbTechnicalException {
+ /*   public static void main(String[] args) throws IOException, FbTechnicalException {
         CommentService testComment=new CommentService();
         testComment.writeComment("1","p1", "Cris", "nice");
         System.out.println(testComment.viewAllComments("p1","Cris"));
-    }
+    }*/
 
     public int viewAllComments(String postId, String userName) throws FbTechnicalException {
         int counter=0;

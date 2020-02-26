@@ -3,31 +3,48 @@ package com.facebook.service;
 import com.facebook.dao.LikeDao;
 import com.facebook.exception.FbTechnicalException;
 import com.facebook.model.Like;
-
 import java.io.IOException;
+import java.util.ArrayList;
 
 
 public class LikeService {
 
-/*    public static void main(String[] args) throws FbTechnicalException, IOException {
+ /*   public static void main(String[] args) throws FbTechnicalException, IOException {
         LikeService testLike=new LikeService();
-        testLike.addLike("6","p1","Cris");
-        System.out.println(testLike.viewAllLikes("p1","Cris"));
+        testLike.addLike("p3","Crisju");
+        System.out.println(testLike.viewNrOfLikes("p3"));
+        for (String likeUserName : testLike.viewLikesUserList("p3")) {
+           System.out.println(likeUserName);
+
+        }
     }*/
 
     private LikeDao likeDao = new LikeDao();
 
-    public int viewAllLikes(String postId, String userName) throws FbTechnicalException {
+    public int viewNrOfLikes(String postId) throws FbTechnicalException {
         int counter=0;
         for (Like like : likeDao.readAllLike()) {
-            if (postId.equals(like.getPostId()) && userName.equals(like.getUserName())) {
+            if (postId.equals(like.getPostId()) ) {
                 counter++;
             }
         }
         return counter;
     }
-    public void addLike(String likeId, String postId, String userName) throws IOException {
-        Like like = new Like(likeId, postId, userName);
+    public ArrayList<String> viewLikesUserList(String postId) throws FbTechnicalException {
+        ArrayList<String> userLikeList=new ArrayList<>();
+        for (Like like : likeDao.readAllLike()) {
+            if (postId.equals(like.getPostId())) {
+                userLikeList.add(like.getUserName());
+            }
+        }
+        return userLikeList;
+    }
+    public void addLike(String postId, String userName) throws IOException, FbTechnicalException {
+        int maxIdLike=0;
+        for (Like like : likeDao.readAllLike()){
+          maxIdLike++;
+        }
+        Like like = new Like(maxIdLike+1,postId, userName);
         likeDao.writeLike(like);
     }
 }
