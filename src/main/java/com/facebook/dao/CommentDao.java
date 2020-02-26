@@ -37,4 +37,15 @@ public class CommentDao {
         outputStream.close();
 
     }
+    public void overWriteAllComments (List<Comment> newCommentsList) throws FbTechnicalException, IOException {
+        System.out.println("OverWrite list of comments." );
+        Writer outputStream;
+        outputStream = new BufferedWriter(new FileWriter(COMMENTS_FILE));
+        for(Comment newComment: newCommentsList) {
+            outputStream.write(newComment.getCommentId() + ";" + newComment.getPostId() + ";" + newComment.getUserName() + ";" + newComment.getCommentContent());
+            ((BufferedWriter) outputStream).newLine();
+        }
+        outputStream.close();
+
+    }
 }

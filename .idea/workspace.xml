@@ -3,15 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="45193fdb-4c26-40f2-85b0-9f31e8c93329" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/dao/UserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/dao/UserDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/model/Comment.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/model/Comment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/model/Like.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/model/Like.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/facebook/comments.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/facebook/comments.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/facebook/dao/CommentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/facebook/dao/CommentDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/facebook/model/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/facebook/model/Comment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/facebook/model/Like.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/facebook/model/Like.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/facebook/service/CommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/facebook/service/CommentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/facebook/service/LikeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/facebook/service/LikeService.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -124,8 +118,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Application" />
-        <item itemvalue="Application.LikeService" />
         <item itemvalue="Application.CommentService" />
+        <item itemvalue="Application.LikeService" />
         <item itemvalue="Application.Application" />
       </list>
     </recent_temporary>
@@ -197,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582710647804</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="new commit">
+      <created>1582716280595</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1582716280595</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

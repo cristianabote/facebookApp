@@ -12,9 +12,10 @@ public class CommentService {
 
 /*    public static void main(String[] args) throws IOException, FbTechnicalException {
         CommentService testComment=new CommentService();
-      // testComment.addComment("p1", "Alexandru", "greay");
+        testComment.addComment("p1", "Alexandru", "great");
         testComment.viewNrOfComments("p2");
         testComment.viewCommentList();
+        testComment.deleteComment(3);
     }*/
     public void viewNrOfComments(String postId) throws FbTechnicalException {
         int counter=0;
@@ -37,9 +38,18 @@ public class CommentService {
     public void addComment(String postId, String userName, String commentContent) throws IOException, FbTechnicalException {
         int maxCommentId=0;
         for (Comment comment : commentDao.readAllComments()){
-            maxCommentId++;
+            maxCommentId=comment.getCommentId();
         }
         Comment comment = new Comment(maxCommentId+1, postId, userName, commentContent);
         commentDao.writeComment(comment);
+    }
+    public void deleteComment(int commentId) throws FbTechnicalException, IOException {
+        ArrayList<Comment> commentsList= new ArrayList<>();
+        for (Comment comment : commentDao.readAllComments()) {
+            if (commentId!=comment.getCommentId()) {
+                commentsList.add(comment);
+            }
+        }
+        commentDao.overWriteAllComments(commentsList);
     }
 }
