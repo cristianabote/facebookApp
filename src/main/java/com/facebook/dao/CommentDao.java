@@ -17,7 +17,7 @@ public class CommentDao {
 
                 String[] commentValues = commentLine.split(";");
 
-                commentList.add(new Comment(commentValues[0], commentValues[1], commentValues[2], commentValues[3]));
+                commentList.add(new Comment(Integer.parseInt(commentValues[0]), commentValues[1], commentValues[2], commentValues[3]));
                 commentLine = commentReader.readLine();
             }
         } catch (IOException e) {
@@ -28,7 +28,7 @@ public class CommentDao {
     }
 
     public void writeComment(Comment newComment) throws FbTechnicalException, IOException {
-        System.out.println("New comment:" + newComment.getCommentId() + ";" + newComment.getPostId() + ";" + newComment.getUserName()+";"+newComment.getCommentContent());
+        System.out.println("Add new comment:" + newComment.getCommentId() + ";" + newComment.getPostId() + ";" + newComment.getUserName()+";"+newComment.getCommentContent());
         Writer outputStream;
 
         outputStream = new BufferedWriter(new FileWriter(COMMENTS_FILE, true));

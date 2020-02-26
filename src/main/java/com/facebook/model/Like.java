@@ -35,5 +35,7 @@ public class Like {
         this.userName = userName;
     }
 
-
+    public String toString() {
+        return this.getUserName();
+    }
 }
