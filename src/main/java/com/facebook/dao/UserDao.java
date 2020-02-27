@@ -13,8 +13,8 @@ import java.util.List;
 
 public class UserDao {
 
-    private static final String USERS_FILE = "C:/Users/User/IdeaProjects/facebookApp/src/main/java/com/facebook/users.txt";
-    private static final String USER_INFO = "C:/Users/User/IdeaProjects/facebookApp/src/main/java/com/facebook/usersOutputProfile.txt";
+    private static final String USERS_FILE = "./src/main/java/com/facebook/users.txt";
+    private static final String USER_INFO = "./src/main/java/com/facebook/usersOutputProfile.txt";
 
 
     public List<User> readAllUsers() throws FbTechnicalException {

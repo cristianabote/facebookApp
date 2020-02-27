@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a839a109-b5ba-4f2d-b159-28fc0d49600a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+    <list default="true" id="45193fdb-4c26-40f2-85b0-9f31e8c93329" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/facebook/comments.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/facebook/likes.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/facebook/posts.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exception-handling/META-INF/exception-handling.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exception-handling/META-INF/exception-handling.kotlin_module" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/Application.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/dao/UserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/dao/UserDAO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/exception/FacebookException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/exception/FacebookException.class" afterDir="false" />
@@ -20,14 +23,9 @@
       <change beforePath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/exception/FbTechnicalException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/exception/FbTechnicalException.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/exception/FbWrongCredentialsException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/exception/FbWrongCredentialsException.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/model/Comment.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/model/Comment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/model/FacebookAccount.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/model/Friend.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/model/Like.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/model/Like.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/model/Message.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/model/Messenger.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/model/Post.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/model/Post.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/model/ProfileInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/model/ProfileInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/model/SuggestedFriend.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/model/User.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/service/UserService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/ui/EditSettingsUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/ui/EditSettingsUI.class" afterDir="false" />
@@ -35,32 +33,24 @@
       <change beforePath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/ui/MainUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/ui/MainUI.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/ui/MyFacebook.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/ui/MyFacebook.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/ui/ProfileUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/ui/ProfileUI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/ui/RegisterUI.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/ui/SignUpUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/ui/SignUpUI.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/ui/validator/UserValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/ui/validator/UserValidator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exception-handling/users.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exception-handling/users.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/users.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exception-handling/com/facebook/users.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/facebook/dao/CommentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/facebook/dao/CommentDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/facebook/dao/LikeDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/facebook/dao/LikeDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/facebook/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/facebook/dao/UserDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/facebook/model/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/facebook/model/Comment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/facebook/model/FacebookAccount.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/facebook/model/Friend.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/facebook/model/Like.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/facebook/model/Like.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/facebook/model/Message.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/facebook/model/Messenger.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/facebook/model/Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/facebook/model/Post.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/facebook/model/ProfileInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/facebook/model/ProfileInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/facebook/model/SuggestedFriend.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/facebook/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/facebook/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/facebook/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/facebook/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/facebook/ui/SignUpUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/facebook/ui/SignUpUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/facebook/service/CommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/facebook/service/CommentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/facebook/service/LikeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/facebook/service/LikeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/facebook/users.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/facebook/users.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="facebookApp" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -96,10 +86,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../backup/facebookApp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -123,7 +114,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Application">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.facebook.Application" />
       <module name="exception-handling" />
@@ -137,9 +128,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CommentService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.facebook.service.CommentService" />
+      <module name="exception-handling" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.facebook.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LikeService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.facebook.service.LikeService" />
+      <module name="exception-handling" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.facebook.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Application" />
+        <item itemvalue="Application.CommentService" />
+        <item itemvalue="Application.LikeService" />
         <item itemvalue="Application.Application" />
       </list>
     </recent_temporary>
@@ -149,7 +168,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a839a109-b5ba-4f2d-b159-28fc0d49600a" name="Default Changelist" comment="" />
+      <changelist id="45193fdb-4c26-40f2-85b0-9f31e8c93329" name="Default Changelist" comment="" />
       <created>1579629173688</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -183,7 +202,70 @@
       <option name="project" value="LOCAL" />
       <updated>1581597105872</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="4th commit">
+      <created>1581603600356</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1581603600356</updated>
+    </task>
+    <task id="LOCAL-00006" summary="new commit">
+      <created>1582653233276</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1582653233276</updated>
+    </task>
+    <task id="LOCAL-00007" summary="new commit">
+      <created>1582660730195</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1582660730195</updated>
+    </task>
+    <task id="LOCAL-00008" summary="new commit">
+      <created>1582710647804</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1582710647804</updated>
+    </task>
+    <task id="LOCAL-00009" summary="new commit">
+      <created>1582716280595</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1582716280595</updated>
+    </task>
+    <task id="LOCAL-00010" summary="new commit">
+      <created>1582724861853</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1582724861853</updated>
+    </task>
+    <task id="LOCAL-00011" summary="new commit">
+      <created>1582724939840</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1582724939840</updated>
+    </task>
+    <task id="LOCAL-00012" summary="new commit">
+      <created>1582791846197</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1582791846197</updated>
+    </task>
+    <task id="LOCAL-00013" summary="new commit">
+      <created>1582792589086</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1582792589086</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -203,95 +285,62 @@
     <MESSAGE value="second commit" />
     <MESSAGE value="3th commit" />
     <MESSAGE value="4th commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="4th commit" />
+    <MESSAGE value="new commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="new commit" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="765" y="205" key="#com.intellij.ide.util.MemberChooser" timestamp="1581962650588">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="765" y="205" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1581962650588" />
-    <state x="690" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1581704188881">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="690" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581704188881" />
-    <state x="548" y="115" key="CommitChangelistDialog2" timestamp="1581622675351" />
-    <state x="548" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1581622675351" />
-    <state x="740" y="276" key="FileChooserDialogImpl" timestamp="1581967485214">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="740" y="276" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1581967485214" />
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1581968165653">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581968165653" />
-    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1581968165653">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581968165653" />
-    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1581968165653">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581968165653" />
-    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1581968165653">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581968165653" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1581968165653">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581968165653" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1581968165653">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581968165653" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1581968165653">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581968165653" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1581968165653">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581968165653" />
-    <state x="184" y="92" key="MergeDialog" timestamp="1581704100143">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="184" y="92" key="MergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581704100143" />
-    <state x="672" y="237" key="MultipleFileMergeDialog" timestamp="1581704100148">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="672" y="237" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581704100148" />
-    <state x="665" y="232" key="RollbackChangesDialog" timestamp="1581622675351" />
-    <state x="665" y="232" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581622675351" />
-    <state x="440" y="95" key="SettingsEditor" timestamp="1581622675351" />
-    <state x="440" y="95" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1581622675351" />
-    <state x="655" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1581960697946">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="655" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581960697946" />
-    <state x="769" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581622675351" />
-    <state x="769" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1581622675351" />
-    <state x="657" y="118" width="606" height="804" key="find.popup" timestamp="1581967466089">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="657" y="118" width="606" height="804" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1581967466089" />
-    <state x="684" y="234" key="git4idea.branch.GitSmartOperationDialog" timestamp="1581704647395">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="684" y="234" key="git4idea.branch.GitSmartOperationDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581704647395" />
-    <state x="675" y="312" key="git4idea.merge.GitPullDialog" timestamp="1581622675351" />
-    <state x="675" y="312" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581622675351" />
-    <state x="616" y="173" width="672" height="676" key="search.everywhere.popup" timestamp="1581961474880">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="616" y="173" width="672" height="676" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1581961474880" />
+    <state x="765" y="205" key="#com.intellij.ide.util.MemberChooser" />
+    <state x="765" y="205" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" />
+    <state x="690" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" />
+    <state x="690" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" />
+    <state x="548" y="115" key="CommitChangelistDialog2" />
+    <state x="548" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" />
+    <state x="740" y="276" key="FileChooserDialogImpl" />
+    <state x="740" y="276" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" />
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom" />
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" />
+    <state width="1877" height="348" key="GridCell.Tab.0.center" />
+    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" />
+    <state width="1877" height="348" key="GridCell.Tab.0.left" />
+    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" />
+    <state width="1877" height="348" key="GridCell.Tab.0.right" />
+    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" />
+    <state x="184" y="92" key="MergeDialog" />
+    <state x="184" y="92" key="MergeDialog/0.0.1920.1040@0.0.1920.1040" />
+    <state x="672" y="237" key="MultipleFileMergeDialog" />
+    <state x="672" y="237" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" />
+    <state x="665" y="232" key="RollbackChangesDialog" />
+    <state x="665" y="232" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" />
+    <state x="440" y="95" key="SettingsEditor" />
+    <state x="440" y="95" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" />
+    <state x="655" y="345" key="com.intellij.ide.util.TipDialog" />
+    <state x="655" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" />
+    <state x="769" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" />
+    <state x="769" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" />
+    <state x="657" y="118" width="606" height="804" key="find.popup" />
+    <state x="657" y="118" width="606" height="804" key="find.popup/0.0.1920.1040@0.0.1920.1040" />
+    <state x="684" y="234" key="git4idea.branch.GitSmartOperationDialog" />
+    <state x="684" y="234" key="git4idea.branch.GitSmartOperationDialog/0.0.1920.1040@0.0.1920.1040" />
+    <state x="675" y="312" key="git4idea.merge.GitPullDialog" />
+    <state x="675" y="312" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" />
+    <state x="616" y="173" width="672" height="676" key="search.everywhere.popup" />
+    <state x="616" y="173" width="672" height="676" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/facebook/dao/UserDao.java</url>
-          <line>20</line>
-          <option name="timeStamp" value="1" />
+          <url>file://$PROJECT_DIR$/src/main/java/com/facebook/dao/LikeDao.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

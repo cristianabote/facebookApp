@@ -1,5 +1,4 @@
 package com.facebook.dao;
-
 import com.facebook.exception.FacebookException;
 import com.facebook.exception.FbFileException;
 import com.facebook.exception.FbTechnicalException;
@@ -8,6 +7,7 @@ import com.facebook.model.Comment;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
+import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -54,4 +54,25 @@ public class CommentDao {
 
     }
 
+    public void writeComment(Comment newComment) throws FbTechnicalException, IOException {
+        System.out.println("Add new comment:" + newComment.getCommentId() + ";" + newComment.getPostId() + ";" + newComment.getUserName()+";"+newComment.getCommentContent());
+        Writer outputStream;
+
+        outputStream = new BufferedWriter(new FileWriter(COMMENTS_FILE, true));
+        outputStream.write(newComment.getCommentId() + ";" + newComment.getPostId() + ";" + newComment.getUserName()+";"+newComment.getCommentContent());
+        ((BufferedWriter) outputStream).newLine();
+        outputStream.close();
+
+    }
+    public void overWriteAllComments (List<Comment> newCommentsList) throws FbTechnicalException, IOException {
+        System.out.println("OverWrite list of comments." );
+        Writer outputStream;
+        outputStream = new BufferedWriter(new FileWriter(COMMENTS_FILE));
+        for(Comment newComment: newCommentsList) {
+            outputStream.write(newComment.getCommentId() + ";" + newComment.getPostId() + ";" + newComment.getUserName() + ";" + newComment.getCommentContent());
+            ((BufferedWriter) outputStream).newLine();
+        }
+        outputStream.close();
+
+    }
 }

@@ -2,19 +2,12 @@ package com.facebook.ui;
 
 import com.facebook.exception.FacebookException;
 import com.facebook.exception.FbTechnicalException;
-import com.facebook.exception.FbWrongCredentialsException;
 import com.facebook.model.Post;
-import com.facebook.service.CommentService;
-import com.facebook.service.LikeService;
 import com.facebook.service.PostService;
 import com.facebook.service.UserService;
-import javafx.geometry.Pos;
 
-import java.io.IOException;
 import java.util.List;
 import java.util.Scanner;
-
-import static com.facebook.ui.MyFacebook.showOption;
 
 public class NewsFeedUi {
     private UserService userService = new UserService();

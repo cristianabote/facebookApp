@@ -1,7 +1,30 @@
+<<<<<<< HEAD
 # Eclipse
 .classpath
 .project
 .settings/
+=======
+<<<<<<< HEAD
+ # Default ignored files
+ /.idea/workspace.xml
+ .idea/workspace.xml
+ workspace.xml~cristiana
+ workspace.xml
+ $PRODUCT_WORKSPACE_FILE$
+ workspace.xml
+ users.txt
+ .class
+=======
+# Default ignored files
+/.idea/workspace.xml
+.idea/workspace.xml
+workspace.xml~cristiana
+workspace.xml
+$PRODUCT_WORKSPACE_FILE$
+workspace.xml
+users.txt
+.class
+>>>>>>> master
 
 # Intellij
 .idea/
@@ -13,9 +36,13 @@
 
 out/
 
+<<<<<<< HEAD
 # Mac
 .DS_Store
 
 # Maven
 log/
 target/
+=======
+>>>>>>> master
+>>>>>>> master

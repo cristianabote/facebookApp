@@ -7,10 +7,7 @@ import com.facebook.dao.UserDao;
 import com.facebook.exception.FacebookException;
 import com.facebook.exception.FbTechnicalException;
 import com.facebook.exception.FbWrongCredentialsException;
-import com.facebook.model.Comment;
-import com.facebook.model.Like;
 import com.facebook.model.Post;
-import javafx.geometry.Pos;
 
 import java.util.ArrayList;
 import java.util.List;

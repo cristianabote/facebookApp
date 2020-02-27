@@ -4,16 +4,14 @@ import com.facebook.exception.FacebookException;
 import com.facebook.exception.FbFileException;
 import com.facebook.exception.FbTechnicalException;
 import com.facebook.model.Like;
-import com.facebook.model.User;
-
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
+import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 
 public class LikeDao {
-
     private static final String LIKES_FILE = "C:/Users/User/IdeaProjects/facebookApp/src/main/java/com/facebook/likes.txt";
 
     public List<Like> readAllLikes() throws FbTechnicalException {
@@ -54,5 +52,14 @@ public class LikeDao {
         return likeList;
     }
 
-    }
+    public void writeLike(Like newLike) throws IOException {
+        System.out.println("New Like:" + newLike.getLikeId() + ";" + newLike.getPostId() + ";" + newLike.getUserName());
+        Writer outputStream;
 
+        outputStream = new BufferedWriter(new FileWriter(LIKES_FILE, true));
+        outputStream.write(newLike.getLikeId() + ";" + newLike.getPostId() + ";" + newLike.getUserName());
+        ((BufferedWriter) outputStream).newLine();
+        outputStream.close();
+
+    }
+}
