@@ -1,39 +1,31 @@
 package com.facebook.model;
 
-public class Comment {
-    private String postId;
-    private String commentId;
+public class Comment{
+    private int commentId;
+    private int postId;
     private String userName;
     private String commentContent;
 
-    public Comment(String postId, String commentId, String userName, String commentContent) {
-        this.postId = postId;
+    public Comment(int commentId, int postId, String userName, String commentContent) {
         this.commentId = commentId;
+        this.postId = postId;
         this.userName = userName;
         this.commentContent = commentContent;
     }
 
-    public String getPostId() {
-        return postId;
-    }
-
-    public void setPostId(String postId) {
-        this.postId = postId;
-    }
-
-    public String getCommentId() {
+    public int getCommentId() {
         return commentId;
     }
 
-    public void setCommentId(String commentId) {
+    public void setCommentId(int commentId) {
         this.commentId = commentId;
     }
 
-    public String getPostID() {
+    public int getPostId() {
         return postId;
     }
 
-    public void setPostID(String postId) {
+    public void setPostId(int postId) {
         this.postId = postId;
     }
 
@@ -51,5 +43,8 @@ public class Comment {
 
     public void setCommentContent(String commentContent) {
         this.commentContent = commentContent;
+    }
+    public String toString(){
+        return "ID:"+this.getCommentId()+" POSTID:"+this.getPostId()+" User:"+this.getUserName()+" Comment:"+this.getCommentContent();
     }
 }

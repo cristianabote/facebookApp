@@ -1,3 +1,14 @@
+<<<<<<< HEAD
+ # Default ignored files
+ /.idea/workspace.xml
+ .idea/workspace.xml
+ workspace.xml~cristiana
+ workspace.xml
+ $PRODUCT_WORKSPACE_FILE$
+ workspace.xml
+ users.txt
+ .class
+=======
 # Default ignored files
 /.idea/workspace.xml
 .idea/workspace.xml
@@ -10,3 +21,4 @@ users.txt
 
 
 
+>>>>>>> master

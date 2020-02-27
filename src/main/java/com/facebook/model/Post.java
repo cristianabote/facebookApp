@@ -6,7 +6,7 @@ import java.util.List;
 
 
 public class Post {
-    public Post(String postID, String userName, String title, String description, List<Like> likes, List<Comment> comments) {
+    public Post(int postID, String userName, String title, String description, List<Like> likes, List<Comment> comments) {
         this.postID = postID;
         this.userName = userName;
         this.title = title;
@@ -15,7 +15,7 @@ public class Post {
         this.comments = comments;
     }
 
-    private String postID;
+    private int postID;
     private String userName;
     private String title;
     private String description;
@@ -23,11 +23,11 @@ public class Post {
     private List<Comment> comments;
 
 
-    public String getPostID() {
+    public int getPostID() {
         return postID;
     }
 
-    public void setPostID(String postID) {
+    public void setPostID(int postID) {
         this.postID = postID;
     }
 
