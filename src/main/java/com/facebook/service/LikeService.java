@@ -36,7 +36,7 @@ public class LikeService {
             }
         }
     }
-    public void addLike(String postId, String userName) throws IOException, FbTechnicalException {
+    public void addLike(int postId, String userName) throws IOException, FbTechnicalException {
         int maxIdLike=0;
         for (Like like : likeDao.readAllLike()){
           maxIdLike=like.getLikeId();

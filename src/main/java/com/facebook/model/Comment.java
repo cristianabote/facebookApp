@@ -2,11 +2,11 @@ package com.facebook.model;
 
 public class Comment{
     private int commentId;
-    private String postId;
+    private int postId;
     private String userName;
     private String commentContent;
 
-    public Comment(int commentId, String postId, String userName, String commentContent) {
+    public Comment(int commentId, int postId, String userName, String commentContent) {
         this.commentId = commentId;
         this.postId = postId;
         this.userName = userName;
@@ -21,11 +21,11 @@ public class Comment{
         this.commentId = commentId;
     }
 
-    public String getPostId() {
+    public int getPostId() {
         return postId;
     }
 
-    public void setPostId(String postId) {
+    public void setPostId(int postId) {
         this.postId = postId;
     }
 

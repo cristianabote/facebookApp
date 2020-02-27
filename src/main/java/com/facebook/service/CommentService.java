@@ -35,7 +35,7 @@ public class CommentService {
         }
     }
 
-    public void addComment(String postId, String userName, String commentContent) throws IOException, FbTechnicalException {
+    public void addComment(int postId, String userName, String commentContent) throws IOException, FbTechnicalException {
         int maxCommentId=0;
         for (Comment comment : commentDao.readAllComments()){
             maxCommentId=comment.getCommentId();

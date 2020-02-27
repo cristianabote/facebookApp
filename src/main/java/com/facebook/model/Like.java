@@ -2,10 +2,10 @@ package com.facebook.model;
 
 public class Like {
     private int likeId;
-    private String postId;
+    private int postId;
     private String userName;
 
-    public Like(int likeId, String postId, String userName) {
+    public Like(int likeId, int postId, String userName) {
         this.likeId = likeId;
         this.postId = postId;
         this.userName = userName;
@@ -19,11 +19,11 @@ public class Like {
         this.likeId = likeId;
     }
 
-    public String getPostId() {
+    public int getPostId() {
         return postId;
     }
 
-    public void setPostId(String postId) {
+    public void setPostId(int postId) {
         this.postId = postId;
     }
 

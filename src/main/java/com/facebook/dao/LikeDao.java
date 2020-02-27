@@ -18,7 +18,7 @@ public class LikeDao {
             while (likeLine != null) {
                 String[] likeValues = likeLine.split(";");
 
-                likeList.add(new Like(Integer.parseInt(likeValues[0]), likeValues[1], likeValues[2]));
+                likeList.add(new Like(Integer.parseInt(likeValues[0]), Integer.parseInt(likeValues[1]), likeValues[2]));
                 likeLine = likeReader.readLine();
             }
         } catch (IOException e) {

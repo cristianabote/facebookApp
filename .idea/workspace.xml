@@ -3,8 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="45193fdb-4c26-40f2-85b0-9f31e8c93329" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/facebook/comments.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/facebook/comments.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/facebook/likes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/facebook/likes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/facebook/dao/CommentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/facebook/dao/CommentDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/facebook/dao/LikeDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/facebook/dao/LikeDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/facebook/model/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/facebook/model/Comment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/facebook/model/Like.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/facebook/model/Like.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/facebook/model/Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/facebook/model/Post.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/facebook/service/CommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/facebook/service/CommentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/facebook/service/LikeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/facebook/service/LikeService.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -211,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582724939840</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="new commit">
+      <created>1582791846197</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1582791846197</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
