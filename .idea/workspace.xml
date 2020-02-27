@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="45193fdb-4c26-40f2-85b0-9f31e8c93329" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/facebook/dao/CommentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/facebook/dao/CommentDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/facebook/dao/LikeDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/facebook/dao/LikeDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/facebook/model/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/facebook/model/Comment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/facebook/model/Like.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/facebook/model/Like.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/facebook/model/Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/facebook/model/Post.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/facebook/service/CommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/facebook/service/CommentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/facebook/service/LikeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/facebook/service/LikeService.java" afterDir="false" />
-    </list>
+    <list default="true" id="45193fdb-4c26-40f2-85b0-9f31e8c93329" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -223,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582791846197</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="new commit">
+      <created>1582792589086</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1582792589086</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
