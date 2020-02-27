@@ -37,7 +37,7 @@ public class UserDao {
         System.out.println("New user:" + newUser.getEmail() + ";" + newUser.getPassword());
         Writer outputStream;
         outputStream = new BufferedWriter(new FileWriter(USERS_FILE, true));
-        outputStream.write(newUser.getEmail() + ";" + newUser.getPassword());
+        outputStream.write(newUser.getEmail() + ";" + newUser.getPassword() + ";" + newUser.getRole());
         ((BufferedWriter) outputStream).newLine();
         outputStream.close();
 

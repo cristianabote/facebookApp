@@ -1,5 +1,6 @@
 package com.facebook.ui;
 
+import com.facebook.exception.FacebookException;
 import com.facebook.exception.FbTechnicalException;
 
 import java.io.IOException;
@@ -7,20 +8,19 @@ import java.util.Scanner;
 
 public class MyFacebook {
 
-    public static void showOption() throws IOException, FbTechnicalException {
+    public static void showOption() throws IOException, FacebookException {
         Scanner firstScreenAfterLoginScanner = new Scanner(System.in);
-        System.out.println("1. See Profile");
-        System.out.println("2. Add Friend");
-        System.out.println("3. Feed");
-        System.out.println("4. Logout");
+        System.out.println("1. View NewsFeed");
+        System.out.println("2. View Friends");
+        System.out.println("3. Logout");
         System.out.println("Enter your option: ");
 
         int option = Integer.parseInt(firstScreenAfterLoginScanner.next());
 
 
         if (option == 1) {
-            ProfileUI profileUI = new ProfileUI();
-            profileUI.displayUserLoggedIn();
+            NewsFeedUi newsFeedUi = new NewsFeedUi();
+            newsFeedUi.displayNewsFeed();
         }
         if (option == 2) {
             {

@@ -1,11 +1,21 @@
-# Default ignored files
-/.idea/workspace.xml
-workspace.xml~cristiana
-workspace.xml
-$PRODUCT_WORKSPACE_FILE$
-workspace.xml
-users.txt
-.class
+# Eclipse
+.classpath
+.project
+.settings/
 
+# Intellij
+.idea/
+*.iml
+*.iws
+*.class
+*.txt
+*.xml
 
+out/
 
+# Mac
+.DS_Store
+
+# Maven
+log/
+target/

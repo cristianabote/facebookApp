@@ -12,12 +12,12 @@ public class User {
 
     }
 
-    public String getName() {
+    public String getRole() {
         return role;
     }
 
-    public void setName(String name) {
-        this.role = name;
+    public void setRole(String role) {
+        this.role = role;
     }
 
     public String getPassword() {

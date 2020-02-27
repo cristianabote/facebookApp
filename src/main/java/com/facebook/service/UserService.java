@@ -23,7 +23,7 @@ public class UserService {
         throw new FbWrongCredentialsException();
     }
 
-    public void signUp(String email, String name,String password, String role, String phoneNumber, String dateOfBirth, String maritalStatus, String gender, String city, String job) throws FacebookException, IOException {
+    public void signUp(String email, String password,String role, String name, String phoneNumber, String dateOfBirth, String maritalStatus, String gender, String city, String job) throws FacebookException, IOException {
         ProfileInfo newUserProfile = new ProfileInfo(email, name, phoneNumber, dateOfBirth, maritalStatus, gender, city, job);
         User newUser = new User(email, password, role);
         userDAO.writeUser(newUserProfile, newUser);
