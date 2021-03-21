@@ -23,7 +23,7 @@ public class LoginUI {
         try {
             userService.login(email, password);
             System.out.println("Welcome "+ email);
-            showOption();
+            showOption(email);
 
         } catch (FbWrongCredentialsException e) {
             System.out.println("Wrong Credentials");

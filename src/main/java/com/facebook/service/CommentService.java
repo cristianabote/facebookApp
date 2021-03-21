@@ -46,7 +46,7 @@ public class CommentService {
     public void deleteComment(String commentId) throws FbTechnicalException, IOException {
         ArrayList<Comment> commentsList= new ArrayList<>();
         for (Comment comment : commentDao.readAllComments()) {
-            if (commentId!=comment.getCommentId()) {
+            if (!commentId.equals(comment.getCommentId())) {
                 commentsList.add(comment);
             }
         }

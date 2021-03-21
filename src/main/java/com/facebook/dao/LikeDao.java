@@ -12,17 +12,17 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class LikeDao {
-    private static final String LIKES_FILE = "C:/Users/User/IdeaProjects/facebookApp/src/main/java/com/facebook/likes.txt";
+    private static final String LIKES_FILE = "./src/main/java/com/facebook/likes.txt";
 
     public List<Like> readAllLikes() throws FbTechnicalException {
         List<Like> likeList = new ArrayList<>();
-        try (
-                BufferedReader likeReader = new BufferedReader(new FileReader(LIKES_FILE))){
-            while ((likeReader.readLine()) != null) {
-                String likeLine = likeReader.readLine();
-                String[] likeValues = likeLine.split(";");
-
-                likeList.add(new Like(likeValues[0], likeValues[1], likeValues[2]));
+        try (BufferedReader likeReader = new BufferedReader(new FileReader(LIKES_FILE))){
+            String likeLine = null;
+            while ((likeLine  = likeReader.readLine()) != null) {
+                if (likeLine != null) {
+                    String[] likeValues = likeLine.split(";");
+                    likeList.add(new Like(likeValues[0], likeValues[1], likeValues[2]));
+                }
             }
         } catch (IOException e) {
             throw new FbFileException("Error reading users", e);
@@ -34,14 +34,14 @@ public class LikeDao {
     public List<Like> readLikeByPostId(String postId) throws FacebookException {
         List<Like> likeList = new ArrayList<>();
         try (
-                BufferedReader likeReader = new BufferedReader(new FileReader(LIKES_FILE))) {
-            while ((likeReader.readLine()) != null) {
-                String likeLine = likeReader.readLine();
-                String[] likeValues = likeLine.split(";");
-
-                if (likeValues[1].equals(postId)) {
-
-                    likeList.add(new Like(likeValues[0], likeValues[1], likeValues[2]));
+            BufferedReader likeReader = new BufferedReader(new FileReader(LIKES_FILE))) {
+            String likeLine = null;
+            while ((likeLine = likeReader.readLine()) != null) {
+                if( likeLine != null) {
+                    String[] likeValues = likeLine.split(";");
+                    if (likeValues[1].equals(postId)) {
+                        likeList.add(new Like(likeValues[0], likeValues[1], likeValues[2]));
+                    }
                 }
             }
         }

@@ -3,4 +3,8 @@
 3;Zuzu;zuzu;zuzu
 4;Robert;zuzu;zuzu
 5;Carla;xxx;xxxx
-6;ducu;xzxz;csxcas
+6;ducu;xzxz;csxcas7
+7;xxx@xxx.com;000000;000000
+8;xxx@xxx.com;555555;555555
+9;xxx@xxx.com;999999;9999999
+10;mihai@yahoo.com;ITHome;Presentation

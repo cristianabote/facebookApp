@@ -1,6 +1,8 @@
-Admin@facebook.ro;Faceb@@k1;ADMIN
+Admin@facebook.ro;1;ADMIN
 cristiana@gmail.com;Abcd!1;Cristiana
 ionut@test.ro;P@rola1234;Ionut
 cris@test3;P@rola12345;Cris
-
 xxx@xxx.com;Robert;54561866415;15.05.1985;male;cluj;single;designer
+mihai@yahoo.com;Mihai;0700000000;02.02.2000;male;cluj;married;developer
+
+noah@me.ro;Noah;0987654567;30Mar;male;cluj;married;developer

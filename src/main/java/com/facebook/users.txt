@@ -2,5 +2,7 @@ Admin@facebook.ro;1;ADMIN
 cristiana@gmail.com;Abcd!1;Cristiana
 ionut@test.ro;P@rola1;Ionut
 cris@test3;P@rola12345;Cris
-
 xxx@xxx.com;XXX_xxx_123;user
+mihai@yahoo.com;Mihai1!;user
+
+noah@me.ro;ParolaPuternica1!;user

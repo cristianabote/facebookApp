@@ -29,9 +29,12 @@ public class LikeService {
         }
     }
     public void addLike(String postId, String userName) throws IOException, FbTechnicalException {
+
         String maxLikeId = likeDao.readAllLikes().get(likeDao.readAllLikes().size()-1).getLikeId();
-        int likeId = (Integer.parseInt(maxLikeId)) + 1;
-        Like like = new Like(likeId + "", postId, userName);
-        likeDao.writeLike(like);
+        if (maxLikeId != null) {
+            int likeId = (Integer.parseInt(maxLikeId)) + 1;
+            Like like = new Like(likeId + "", postId, userName);
+            likeDao.writeLike(like);
+        }
     }
 }
